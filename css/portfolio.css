@@ -1,0 +1,84 @@
+.portfolio {
+    background-color: white;
+    list-style: none;
+}
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    line-height: 1.1;
+    color: #2E2F42;
+}
+.portfolio-title3 {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    color: #2E2F42;
+}
+.portfolio-desc {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    color: #434455;
+}
+.portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    padding-block: 120px;
+    padding-inline: 0px;
+    width: 1440px;
+    height: 1240px;
+}
+.portfolio1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 72px;
+    padding-block: 0px;
+    padding-inline: 15px;
+    width: 1158px;
+    height: 1000px;
+    max-width: 1158px;
+}
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 24px;
+    width: 1128px;
+    height: 888px;
+}
+.project-card {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0px;
+    width: 360px;
+    height: 420px;
+    min-width: 288px;
+    max-width: 360px;
+    min-height: 360px;
+    max-height: 420px;
+}
+.card-content-port {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    padding-block: 32px;
+    padding-inline: 16px;
+    width: 360px;
+    height: 120px;
+}
+

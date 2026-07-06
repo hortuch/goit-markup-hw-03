@@ -1,0 +1,56 @@
+.hero {
+    font-family: roboto;
+    background-color: #2E2F42;
+}
+.hero-title {
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.07;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.button {
+    font-family: roboto;
+    white-space: nowrap;
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+}
+.button:hover, 
+.button:focus {
+    background-color: #404BBF;
+}
+.button {
+    cursor: pointer;
+}
+.hero {
+    width: 100%;
+    max-width: 1440px;
+    height: 600px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+.herotb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1158px;
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: row;
+    gap: 0px;
+    border-radius: 4px;
+    padding-block: 16px;
+    padding-inline: 32px;
+    width: 169px;
+    height: 56px;
+    max-width: 169px;
+}
