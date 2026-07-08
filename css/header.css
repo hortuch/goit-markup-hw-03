@@ -69,53 +69,57 @@ line-height: 1.3;
 .telephone:focus {
     color: #404BBF;
 }
-.header-cont {
+.header {
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: row;
-    gap: 0px;
     border-bottom: 1px solid var(--cornflower);
     width: 1440px;
     height: 72px;
 }
-.header-el {
+.conteiner-header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
+    flex-direction: row;
     padding-block: 0px;
+    margin-left: 141px;
+    margin-right: 141px;
     padding-inline: 15px;
     width: 1158px;
     height: 72px;
-    max-width: 1158px;
 }
-.logo {
+.add {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    margin-right: 15px;
+    margin-left: 340px;
+    flex-direction: row;
+    gap: 40px;
+    width: 344px;
+}
+.adress-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: row;
     gap: 0px;
-    width: 115px;
-    height: 24px;
+    padding-block: 24px;
+    padding-inline: 0px;
 }
-.navitems {
+.navig {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
+    margin-left: auto;
     gap: 40px;
     width: 253px;
     height: 72px;
-    margin-left: auto;
 }
-.addres-itm {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
-    width: 344px;
-    height: 72px;
-}
-.address {
-     margin-right: 156px;
+.logo {
+    margin-left: 15px;
+    margin-right: auto;
 }

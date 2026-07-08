@@ -9,6 +9,7 @@
     letter-spacing: 0.02em;
     line-height: 1.1;
     color: #2E2F42;
+    font-weight: 700;
 }
 .portfolio-title3 {
     font-weight: 500;
@@ -33,21 +34,18 @@
     padding-block: 120px;
     padding-inline: 0px;
     width: 1440px;
-    height: 1240px;
 }
-.portfolio1 {
+.container-portfolio {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: column;
-    gap: 72px;
-    padding-block: 0px;
-    padding-inline: 15px;
-    width: 1158px;
-    height: 1000px;
-    max-width: 1158px;
+    gap: 24px;
+    width: 100%;
+    max-width: 1158px;;
 }
-.project-list {
+.portfolio-list {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -55,9 +53,8 @@
     flex-direction: row;
     gap: 24px;
     width: 1128px;
-    height: 888px;
 }
-.project-card {
+.portfolio-items {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -70,15 +67,3 @@
     min-height: 360px;
     max-height: 420px;
 }
-.card-content-port {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    gap: 8px;
-    padding-block: 32px;
-    padding-inline: 16px;
-    width: 360px;
-    height: 120px;
-}
-

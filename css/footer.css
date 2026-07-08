@@ -30,9 +30,8 @@
     padding-block: 100px;
     padding-inline: 0px;
     width: 1440px;
-    height: 312px;
 }
-.footer-con {
+.container-footer {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -40,18 +39,17 @@
     gap: 0px;
     padding-block: 0px;
     padding-inline: 15px;
-    width: 1158px;
-    height: 112px;
+    width: 100%;
     max-width: 1158px;
 }
-.footer-inf {
+.footer-itm {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
     gap: 16px;
-    width: 264px;
-    height: 112px;
+    width: 100%;
     max-width: 264px;
 }
+
 

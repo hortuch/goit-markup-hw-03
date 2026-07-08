@@ -1,9 +1,6 @@
 .features {
     list-style: none;
 }
-.features-title {
-    display: none;
-}
 .features-title3 {
     font-weight: 500;
     text-align: left;
@@ -20,16 +17,15 @@
     letter-spacing: 0.02em;
     color: #434455;
 }
-.features {
+.container-features {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     flex-direction: row;
     gap: 24px;
     padding-block: 120px;
     padding-inline: 0px;
     width: 1440px;
-    height: 344px;
 }
 .features-list {
     display: flex;
@@ -39,7 +35,15 @@
     gap: 24px;
     padding-block: 0px;
     padding-inline: 15px;
-    width: 1158px;
-    height: 104px;
+    width: 100%;
     max-width: 1158px;
+}
+.features_item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    width: 264px;
+    height: 104px;
 }
