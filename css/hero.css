@@ -35,7 +35,8 @@
     min-width: 1440px;
     padding-block: 188px;
     padding-inline: 0px;
-    width: 1440px;background-color: #2E2F42;
+    max-width: 1440px;
+    background-color: #2E2F42;
 }
 .container-hero {
     display: flex;
@@ -45,19 +46,18 @@
     gap: 48px;
     padding-block: 0px;
     padding-inline: 15px;
-    width: 100%;
-    max-width: 1158px;
 }
 .button {
-    white-space: nowrap;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    gap: 0px;
+    display: block;
+    border: none;
+    padding: 16px 32px;
+    border: none;
     border-radius: 4px;
-    padding-block: 16px;
-    padding-inline: 32px;
-    width: 169px;
-    max-width: 169px;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
