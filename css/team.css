@@ -38,7 +38,6 @@ list-style: none;
     gap: 0px;
     padding-block: 120px;
     padding-inline: 0px;
-    width: 1440px;
 }
 .container-team {
     display: flex;
@@ -57,7 +56,6 @@ list-style: none;
     justify-content: flex-start;
     flex-direction: row;
     gap: 24px;
-    width: 1128px;
     max-width: 1158px;
 }
 .card {
@@ -68,4 +66,12 @@ list-style: none;
     gap: 0px;
     border-radius: 0 0 4px 4px;
     width: 264px;
+}
+.team-name {
+  margin-bottom: 8px;
+}
+.team-pic {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }

@@ -1,5 +1,6 @@
 .features {
     list-style: none;
+    padding: 120px 0;
 }
 .features-title3 {
     margin-bottom: 8px;
@@ -19,12 +20,8 @@
     color: #434455;
 }
 .container-features {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: row;
     gap: 24px;
-    width: 1440px;
 }
 .features-list {
     display: flex;

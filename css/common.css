@@ -16,6 +16,9 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
 }
+.team-spec {
+  padding: 32px 16px;
+}
 .sr-only {
   position: absolute;
   white-space: nowrap;

@@ -32,10 +32,8 @@
     justify-content: flex-start;
     flex-direction: column;
     gap: 0px;
-    min-width: 1440px;
     padding-block: 188px;
     padding-inline: 0px;
-    max-width: 1440px;
     background-color: #2E2F42;
 }
 .container-hero {
