@@ -22,9 +22,7 @@ line-height: 1.3;
 .studio:active {
     color: #2E2F42;
 }
-.features,
-.team,
-.portfolio {
+.nav-list {
     text-decoration: none;
     color: #2E2F42;
     list-style: none;
@@ -34,14 +32,10 @@ line-height: 1.3;
     font-size: 16px;
     letter-spacing: 0.02em;
 }  
-.features:hover,
-.team:hover,
-.portfolio:hover {
+.nav-list:hover {
     color: #404BBF;
 }
-.features:focus,
-.team:focus,
-.portfolio:focus {
+.nav-list:focus {
     color: #404bbf;
 }
 
@@ -81,7 +75,6 @@ line-height: 1.3;
     align-items: center;
     flex-direction: row;
     padding-block: 0px;
-    padding-inline: 15px;
 }
 .add {
     display: flex;
@@ -124,7 +117,7 @@ line-height: 1.3;
 }
 .email,
 .telephone,
-.navigation-points {
+.navig-points {
     display: block;
     padding-top: 24px;
     padding-bottom: 24px;
